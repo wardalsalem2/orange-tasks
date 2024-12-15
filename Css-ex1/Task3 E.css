@@ -1,0 +1,14 @@
+body{
+    background-color: darkkhaki;
+}
+.ward{
+    border: 2px solid black; background-color: aliceblue; padding: 15px;
+
+}
+.ward1{
+    border: 2px solid black; background-color: aliceblue; padding: 15px;
+}
+.ward2{
+    border: 3px dotted purple  ; padding: 15px; color: purple; background-color: aliceblue;
+    
+}

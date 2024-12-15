@@ -1,0 +1,56 @@
+body{
+    background-color: goldenrod;
+    
+}
+    .container{
+display: flex;
+padding: 5px;
+    }
+
+
+    .container>div{
+        height: 100vh;
+        font-size: 5rem;
+        color: white;
+        flex-grow: 1;
+        text-align: center;
+
+    }
+
+    .green{
+        background-color: green;
+    }
+
+    .yellow{
+        background-color: yellow;
+    }
+
+    .purple{
+        background-color: purple;
+    }
+
+    .gray{
+      background-color: gray;  
+    }
+
+    .blue{
+        background-color: blue;
+    }
+
+    .orange{
+        background-color: orange;
+
+    }
+
+    .pink{
+        background-color: pink;
+
+    }
+
+    .red{
+        background-color: red;
+    }
+
+    .brawn{
+        background-color: brown;
+    }
