@@ -42,7 +42,7 @@ Ex: calculateSupply(30, 3);
 => 'You will need 76650 cups of tea to last you until the ripe old age of 100;
 */
 function calculateSupply (age , amountperday ){ 
-    return `You will need ${ ( 100-age ) * 365 *age} to last you until the ripe old age of 100`
+    return `You will need ${ ( 100-age ) * 365 *amountperday} to last you until the ripe old age of 100`
 }
 console.log( calculateSupply (30 , 3 ))
 /*
@@ -184,7 +184,7 @@ Ex: sameLength("tree","car")
 function sameLength( text1 , text2){
 if(text1.length === text2.length){
   return true;
-}
+} 
 else{
   return false;
 }
@@ -585,4 +585,4 @@ console.log(mycounter.incounter());
 console.log(mycounter.resetCounter1());
 console.log(mycounter.incounter());
 console.log(mycounter.incounter());
-console.log(mycounter.incounter());
+console.log(mycounter.incounter());  
