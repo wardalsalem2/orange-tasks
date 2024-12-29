@@ -1,0 +1,199 @@
+body{
+    background-image: url(back.jpeg);
+    background-size: cover;
+    display: flex;
+    
+}
+.container{
+    background-color: rgb(2, 2, 32);
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+} 
+
+.menu{
+width: 20vw;
+background-color:#272c4a;
+height: 100vh;
+overflow: hidden;
+}
+.ul1{
+    list-style-type: none;
+    
+}
+
+.ul1>li>a{
+text-decoration: none;
+align-items: center;
+gap:20px;
+color: white;
+display: flex;
+
+
+} 
+.ul1> li> a:hover{
+background-color: rgb(187, 189, 190);
+}
+
+.ul1 >li> p{
+    color:white;
+    padding-top: 10px;
+    height: 10px;
+    
+} 
+
+.right{
+width: 80vw;
+height: 100vh;
+}
+
+.nav{
+margin-top: auto;
+position: relative;
+}
+.img-man{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-man img{
+    width: 100%;
+
+}
+.imgtext{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.ul2{
+    list-style: none;
+}
+    
+.ul2>li{
+align-items: center;
+}
+
+.ul2>li>a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+
+.mid{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin-left: 10px ;
+    margin-right: 10px;
+
+}
+
+.mid .d1{
+background-color: #272c4a ;    
+align-items: center;
+height: 130px;
+font-size: 20px;
+width: 300px;
+
+    
+}
+
+.mid .d1 i{
+    font-size: 30px;
+    padding-left:170px;
+    position: relative;
+    bottom: 70px;
+    
+}
+.mid .d1 .data{
+    text-align: center;
+
+}
+.mid .d1 .data p{
+    padding-right: 150px;
+    color: white;
+}
+
+.mid .d1 .data span{
+    font: bold;
+    font-size: 40px;
+    padding-right: 150px;
+    color: white;
+    
+}
+
+.final{
+    width: 97%;
+    margin-left: 15px;
+    top: 50%;
+    height: 50%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+table{
+    text-align: left;
+    color: white;
+    padding: 20px ;
+    width: 100%;
+}
+table td{
+    padding: 10px;
+}
+table th{
+    padding: 10px;
+}
+
+.right2{
+background-color:#272c4a;
+height: 100%;
+width: 40%;
+
+
+
+}
+.ul4{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    align-self: flex-start;
+    justify-content:space-between
+    
+    
+}
+.chart{
+    align-self: center;
+    
+}
+.chart img{
+width: 70%;
+height: 200px;
+padding-left: 80px;
+}
+.left2{
+width: 55%;
+background-color:#272c4a;
+
+ }
+
+.button1{
+    margin-right: 40px;
+}
